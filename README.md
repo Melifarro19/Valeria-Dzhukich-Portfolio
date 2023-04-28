@@ -24,7 +24,5 @@ I worked with two DBs, `CLASSES` and `PAYMENTS`, and wrote a query using CTEs to
 > <a href="https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/SQL%20Query">SQL Query</a>
 > Here is a part of the final SQL query for reference.
 
-![Image alt](https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/Graphs/Visual_1.png)
-
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
