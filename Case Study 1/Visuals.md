@@ -1,5 +1,3 @@
-  ![Image alt](https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/Graphs/Visual_1.png)
+  ![Balances, Payments and Classes](https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/Graphs/Visual-1.png)
 
-<image src="https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/Graphs/Visual-1.png" alt="Описание картинки">
 
-![Текст с описанием картинки](/Graphs/Visual-1.png)
