@@ -2,6 +2,7 @@
 
 ## ABOUT ME
 Hello! My name is Valeria, and I'm starting my career as a data analyst. In this repository you can find some of my work so far. 
+I sure loved working on those projects, so I hope you like reading my review!
 
 ## SKILLS & SOFTWARE
 - Data analysis tools: `SQL`, `MS Excel`
