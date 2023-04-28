@@ -8,12 +8,6 @@ with first_payments as
     group by user_id
     order by user_id
     ),
-all_dates as
-    (
-    select distinct date_trunc ('day', class_start_datetime) as dt
-    from skyeng_db.classes
-    where date_part ('year', class_start_datetime) = 2022
-    ),
 ...
 payments_by_dates_cumsum as
     (
