@@ -14,12 +14,24 @@ all_dates as
     from skyeng_db.classes
     where date_part ('year', class_start_datetime) = 2022
     ),
-all_dates_by_user as
+...
+payments_by_dates_cumsum as
     (
-    select    user_id
-            , dt
-    from all_dates ad
-    join first_payments fp 
-         on fp.first_payment_date <= ad.dt
-    order by user_id, dt
+    select    adu.user_id
+            , adu.dt
+            , case when pd.transaction_balance_change is null then 0 else pd.transaction_balance_change end
+            , sum (transaction_balance_change) over (partition by adu.user_id order by adu.dt) as transaction_balance_change_cs
+    from all_dates_by_user adu
+    full join payments_by_dates pd 
+              on pd.user_id = adu.user_id 
+              and pd.payment_date = adu.dt
     ),
+...
+select    distinct dt
+        , sum (transaction_balance_change) over (partition by dt order by dt) transaction_balance_change
+        , sum (transaction_balance_change_cs) over (partition by dt order by dt) transaction_balance_change_cs
+        , sum (classes) over (partition by dt order by dt) classes
+        , sum (classes_cs) over (partition by dt order by dt) classes_cs
+        , sum (balance) over (partition by dt order by dt) balance
+from balances
+order by dt
