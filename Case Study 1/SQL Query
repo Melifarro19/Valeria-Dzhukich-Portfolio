@@ -1,1 +1,25 @@
-
+with first_payments as    
+    (
+    select    user_id
+            , date_trunc ('day', min (transaction_datetime)) as first_payment_date
+    from skyeng_db.payments
+    where status_name = 'success'
+            and date_part ('year', transaction_datetime) = 2016
+    group by user_id
+    order by user_id
+    ),
+all_dates as
+    (
+    select distinct date_trunc ('day', class_start_datetime) as dt
+    from skyeng_db.classes
+    where date_part ('year', class_start_datetime) = 2016
+    ),
+all_dates_by_user as
+    (
+    select    user_id
+            , dt
+    from all_dates ad
+    join first_payments fp 
+         on fp.first_payment_date <= ad.dt
+    order by user_id, dt
+    ),
