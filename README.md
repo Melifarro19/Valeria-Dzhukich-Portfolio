@@ -1,7 +1,7 @@
 # PORTFOLIO: Data Analyst
 
 ## ABOUT ME
-<br>
+Hello! My name is Valeria, and I'm starting my career as a data analyst. In this repository you can find some of my work so far. 
 
 ## SKILLS & SOFTWARE
 - Data analysis tools: `SQL`, `MS Excel`
@@ -10,7 +10,7 @@
 
 ## PROJECTS
 ### Case Study 1: Analysis of Student Balance Changes
-A job for an online English school. They asked to look at how the number of classes on each student's balance was changing through time. 
+Project for an online English school. They asked to look at how student balances (ratio of transactions and classes) was changing through time. 
 
 #### Tasks
 1. Use SQL queries to pull a table with data on student balances for each student for every day of the period.
