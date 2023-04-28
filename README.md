@@ -22,7 +22,12 @@ A job for an online English school. They asked to look at how the number of clas
 I worked with two DBs, `CLASSES` and `PAYMENTS`, and wrote a query using CTEs to get all the data required for the analysis. I needed to pull data such as the first transaction date for each student; a list of all dates for each student that are relevant to keep track of their balance; all balance changes (+ cumulative ones) for each student on each date (for transactions and classes), balance changes across the whole school for each date.
 
 > <a href="https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/SQL%20Query">SQL Query</a>
-> Here is a part of the final SQL query for reference.
+<br> Here is a part of the final SQL query for reference.
+
+#### Graphs
+> <a href="https://github.com/Melifarro19/New-Analytical-Life/blob/main/Case%20Study%201/Visuals.md">Line Graphs</a>
+<br> Some of the graphs that I created to help me vvisualise the received results.
+
 
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
