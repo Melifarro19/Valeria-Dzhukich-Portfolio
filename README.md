@@ -36,7 +36,7 @@ I arrived at many conclusions regarding the quality of data in the DB and the tr
 3. The number of payments gradually increases throughout the year, with two spikes in February and September. I can see several seasonal factors here: in Russia there are long New Year holidays, and lots of people return to normal life only in February; people are used to starting their academic year in September even after school; the school likely offered some discounts to mark the start of a new academic year.   
 
 ### Case Study 2: Unit Economics of a Streaming Service
-Project for a streaming service with a pay-by-month subscription. I needed to calculate unit economics to evaluate how effectife the subsciption plan is, and suggest a scenario for achieving a 25% margin. History data was provided for 7 months.
+Project for a streaming service with a pay-by-month subscription. I needed to calculate unit economics to evaluate how effectife the subsciption plan is, and suggest a scenario for achieving a 25% margin. History data was provided for 6 full months.
 
 #### Tasks
 1. Calculate product unit economics and suggest a scenario for achieving a 25% margin.
@@ -44,20 +44,20 @@ Project for a streaming service with a pay-by-month subscription. I needed to ca
 3. Create graphs to demonstrate the audience, peak view periods, most popular films, etc.
 
 #### Solution
-I did all calculations in an Excel sheet. To calculate Retention, LT, CAC, LTR and Fixed Costs, I first needed such data as new subscribers per month, views per month, users per month, average views per user per month, etc. 
+I did all calculations in an Excel sheet. The unit in this case is a subscription. To calculate Retention, LT, CAC, LTR and Fixed Costs, I first needed such data as new subscribers per month, views per month, users per month, average views per user per month, etc. 
 
 > <a href="https://docs.google.com/spreadsheets/d/1WqN5jC5k0IOt-P_XJnigEdkmnp7CBXFE1T0B7rJsS2I/edit?usp=sharing">Google Sheet</a>
 <br> In this Google sheet, you can see the resulting calculator with parameters set to achieve a 25% margin. Also I added some examples of my calculations.
 
 #### Graphs
-> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/Visuals.md">Line Graphs</a>
-<br> Some of the graphs that I created to help me visualise the received results.
+> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%202/Visuals.md">Graphs</a>
+<br> Some of the graphs that I created to visualise the received results.
 
 #### Conclusions
-I arrived at many conclusions regarding the quality of data in the DB and the trends in student behaviour. Here are some of my findings:
-1. Some students have a significant negative balance (up to -60 classes) and have several classes at the same time (up to 4). I assumed that there is a problrm with the data in the DBs, likely with how transaction and class statuses are recorded.
-2. Students buy more classes than they take. My hypotheses include the following: not all data are recorded in the DB; students buy classes in bulk on promotions; there are not enough teachers, etc.
-3. The number of payments gradually increases throughout the year, with two spikes in February and September. I can see several seasonal factors here: in Russia there are long New Year holidays, and lots of people return to normal life only in February; people are used to starting their academic year in September even after school; the school likely offered some discounts to mark the start of a new academic year.  
+1. The number of new users sharply grew in April, but was constantly falling after that. August numbers are almost the same as in March, at the start of the period. The %CAC amounted to almost 138%. This shows that marketing efforts to attract new users didn't pay off.
+2. The number of views was increasing slowly and eventually dropped, but average views per month kept growing. This might mean that users were getting more used to the platform; the content was matching their expectations more and more; marketing started targeting the right audience for the content provided; etc.
+3. User retention was constantly dropping, with average retention around 80%. This might mean that the content wasn't updated often enough to keep old users interested.
+4. Margin was -94% which is predictable in the first months of the operation. A lot of changes are needed to achieve the desired 25% margin, most importantly improving CAC and retention. 
 
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
