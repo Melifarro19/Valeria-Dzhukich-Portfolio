@@ -44,11 +44,10 @@ Project for a streaming service with a pay-by-month subscription. I needed to ca
 3. Create graphs to demonstrate the audience, peak view periods, most popular films, etc.
 
 #### Solution
-I did all calculations in an Excel sheet. To calculate Retention, LT, CAC, LTR and Fixed Costs, I first needed such data as new subscribers each month, views per month, users per month, average views per user per month, etc. 
+I did all calculations in an Excel sheet. To calculate Retention, LT, CAC, LTR and Fixed Costs, I first needed such data as new subscribers per month, views per month, users per month, average views per user per month, etc. 
 
-
-> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/SQL%20Query">SQL Query</a>
-<br> Here is a part of the final SQL query for reference.
+> <a href="[https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/SQL%20Query](https://docs.google.com/spreadsheets/d/1WqN5jC5k0IOt-P_XJnigEdkmnp7CBXFE1T0B7rJsS2I/edit?usp=sharing)">Google Sheet</a>
+<br> In this Google sheet, you can see the resulting calculator with parameters set to achieve a 25% margin. Also I added some examples of my calculations.
 
 #### Graphs
 > <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/Visuals.md">Line Graphs</a>
