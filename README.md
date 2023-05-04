@@ -35,5 +35,30 @@ I arrived at many conclusions regarding the quality of data in the DB and the tr
 2. Students buy more classes than they take. My hypotheses include the following: not all data are recorded in the DB; students buy classes in bulk on promotions; there are not enough teachers, etc.
 3. The number of payments gradually increases throughout the year, with two spikes in February and September. I can see several seasonal factors here: in Russia there are long New Year holidays, and lots of people return to normal life only in February; people are used to starting their academic year in September even after school; the school likely offered some discounts to mark the start of a new academic year.   
 
+### Case Study 2: Unit Economics of a Streaming Service
+Project for a streaming service with a pay-by-month subscription. I needed to create a unit economics calculator to evaluate how effectife the subsciption plan is, and suggest a scenario for achieving a 25% margin.
+
+#### Tasks
+1. Use SQL queries to pull a table with data on student balances for each student for every day of the period.
+2. See how each student's balance was affected by transactions and classes.
+3. Analyse data on student balance changes pulled from the DB and discuss possible issues with data engineers and DB owners.
+4. Visualise all the data and draw conclusions.
+
+#### Solution
+
+
+> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/SQL%20Query">SQL Query</a>
+<br> Here is a part of the final SQL query for reference.
+
+#### Graphs
+> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/Visuals.md">Line Graphs</a>
+<br> Some of the graphs that I created to help me visualise the received results.
+
+#### Conclusions
+I arrived at many conclusions regarding the quality of data in the DB and the trends in student behaviour. Here are some of my findings:
+1. Some students have a significant negative balance (up to -60 classes) and have several classes at the same time (up to 4). I assumed that there is a problrm with the data in the DBs, likely with how transaction and class statuses are recorded.
+2. Students buy more classes than they take. My hypotheses include the following: not all data are recorded in the DB; students buy classes in bulk on promotions; there are not enough teachers, etc.
+3. The number of payments gradually increases throughout the year, with two spikes in February and September. I can see several seasonal factors here: in Russia there are long New Year holidays, and lots of people return to normal life only in February; people are used to starting their academic year in September even after school; the school likely offered some discounts to mark the start of a new academic year.  
+
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
