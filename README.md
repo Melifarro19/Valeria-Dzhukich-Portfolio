@@ -36,7 +36,7 @@ I arrived at many conclusions regarding the quality of data in the DB and the tr
 3. The number of payments gradually increases throughout the year, with two spikes in February and September. I can see several seasonal factors here: in Russia there are long New Year holidays, and lots of people return to normal life only in February; people are used to starting their academic year in September even after school; the school likely offered some discounts to mark the start of a new academic year.   
 
 ### Case Study 2: Unit Economics of a Streaming Service
-Project for a streaming service with a pay-by-month subscription. I needed to calculate unit economics to evaluate how effectife the subsciption plan is, and suggest a scenario for achieving a 25% margin.
+Project for a streaming service with a pay-by-month subscription. I needed to calculate unit economics to evaluate how effectife the subsciption plan is, and suggest a scenario for achieving a 25% margin. History data was provided for 7 months.
 
 #### Tasks
 1. Calculate product unit economics and suggest a scenario for achieving a 25% margin.
@@ -44,6 +44,7 @@ Project for a streaming service with a pay-by-month subscription. I needed to ca
 3. Create graphs to demonstrate the audience, peak view periods, most popular films, etc.
 
 #### Solution
+I did all calculations in an Excel sheet. To calculate Retention, LT, CAC, LTR and Fixed Costs, I first needed such data as new subscribers each month, views per month, users per month, average views per user per month, etc. 
 
 
 > <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%201/SQL%20Query">SQL Query</a>
