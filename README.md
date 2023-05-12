@@ -59,5 +59,26 @@ I did all calculations in an Excel sheet. The unit in this case is a subscriptio
 3. User retention was constantly dropping, with average retention around 80%. This might mean that the content wasn't updated often enough to keep old users interested.
 4. Margin was -94% which is predictable in the first months of the operation. A lot of changes are needed to achieve the desired 25% margin, most importantly improving CAC and retention. 
 
+### Case Study 3: 
+Project for a delivery service. The main task was to find in which situations there was a shortage of delivery persons. The management was planning to provide additional incentives to eliminate such shortages.   
+
+#### Tasks
+1. Analise order to assignment conversion and average delivery person assignment time during rush hours vs normal hours. Find out if there is any statistically significant difference.
+2. Analise conversion and average assignment time by districts. Find out if there is any statistically significant difference.
+3. Analise cinversion depending on the distance. Take into account that assignment algorithms differ for distances up to and over 5 km. Find out if there is any statistically significant difference.
+
+#### Solution
+
+
+> <a href="https://docs.google.com/spreadsheets/d/1WqN5jC5k0IOt-P_XJnigEdkmnp7CBXFE1T0B7rJsS2I/edit?usp=sharing">Google Sheet</a>
+<br> In this Google sheet, you can see the resulting calculator with parameters set to achieve a 25% margin. Also I added some examples of my calculations.
+
+#### Graphs
+> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%202/Visuals.md">Graphs</a>
+<br> Some of the graphs that I created to visualise the received results.
+
+#### Conclusions
+1.
+
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
