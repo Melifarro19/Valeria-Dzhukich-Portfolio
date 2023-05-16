@@ -78,7 +78,7 @@ The analysis was performed with the Excel Analysis ToolPak. I used the two-sampl
 <br> Some of the graphs that I created to visualise the received results.
 
 #### Conclusions
-1.
+1. Order to assignment conversion is less in rush hours, which means there are not enough delivery persons during such hours.
 
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
