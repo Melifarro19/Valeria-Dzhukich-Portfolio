@@ -65,10 +65,10 @@ Project for a delivery service. The main task was to find in which situations th
 #### Tasks
 1. Analise order to assignment conversion and average delivery person assignment time during rush hours vs normal hours. Find out if there is any statistically significant difference.
 2. Analise conversion and average assignment time by districts. Find out if there is any statistically significant difference.
-3. Analise cinversion depending on the distance. Take into account that assignment algorithms differ for distances up to and over 5 km. Find out if there is any statistically significant difference.
+3. Analise conversion depending on the distance. Take into account that assignment algorithms differ for distances up to and over 5 km. Find out if there is any statistically significant difference.
 
 #### Solution
-
+The analysis was performed with the Excel Analysis ToolPak. I used the two-sample t-test assuming unequal variances.
 
 > <a href="https://docs.google.com/spreadsheets/d/1WqN5jC5k0IOt-P_XJnigEdkmnp7CBXFE1T0B7rJsS2I/edit?usp=sharing">Google Sheet</a>
 <br> In this Google sheet, you can see the resulting calculator with parameters set to achieve a 25% margin. Also I added some examples of my calculations.
