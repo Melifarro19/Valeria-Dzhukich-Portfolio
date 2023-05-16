@@ -70,12 +70,8 @@ Project for a delivery service. The main task was to find in which situations th
 #### Solution
 The analysis was performed with the Excel Analysis ToolPak. I used the two-sample t-test assuming unequal variances.
 
-> <a href="https://docs.google.com/spreadsheets/d/1WqN5jC5k0IOt-P_XJnigEdkmnp7CBXFE1T0B7rJsS2I/edit?usp=sharing">Google Sheet</a>
-<br> In this Google sheet, you can see the resulting calculator with parameters set to achieve a 25% margin. Also I added some examples of my calculations.
-
-#### Graphs
-> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%202/Visuals.md">Graphs</a>
-<br> Some of the graphs that I created to visualise the received results.
+> <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%203/Visuals.md">Statistical Tests</a>
+<br> These are examples of statistical tests in Excel.
 
 #### Conclusions
 1. Order to assignment conversion is less in peak hours, which means there are not enough delivery persons during such hours.
