@@ -68,7 +68,7 @@ Project for a delivery service. The main task was to find in which situations th
 3. Analise conversion depending on the distance. Take into account that assignment algorithms differ for distances up to and over 5 km. Find out if there is any statistically significant difference.
 
 #### Solution
-The analysis was performed with the Excel Analysis ToolPak. I used the two-sample t-test assuming unequal variances, Anova analysis.
+I performed the analysis in Excel, with the Analysis ToolPak. First, I determined whether I should use parametric or nonparametric statistical tests: checked if the samples were normally distributed; checked if the samples contained any outliers (using the nterquartile range). The analysis showed that I could use parametric tests. After that I compared the sample variances using the F-test. Then I compared the samples whichand tested my null hypotheses with the two-sample t-test (assuming unequal/equal variances depending on the F-test results) and Anova analysis.
 
 > <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%203/Visuals.md">Statistical Tests</a>
 <br> These are examples of statistical tests in Excel.
