@@ -68,7 +68,7 @@ Project for a delivery service. The main task was to find in which situations th
 3. Analise conversion depending on the distance. Take into account that assignment algorithms differ for distances up to and over 5 km. Find out if there is any statistically significant difference.
 
 #### Solution
-The analysis was performed with the Excel Analysis ToolPak. I used the two-sample t-test assuming unequal variances.
+The analysis was performed with the Excel Analysis ToolPak. I used the two-sample t-test assuming unequal variances, Anova analysis.
 
 > <a href="https://github.com/Melifarro19/Valeria-Dzhukich-Portfolio/blob/main/Case%20Study%203/Visuals.md">Statistical Tests</a>
 <br> These are examples of statistical tests in Excel.
