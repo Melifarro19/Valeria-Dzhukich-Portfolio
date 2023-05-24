@@ -3,7 +3,7 @@
 ## ABOUT ME
 Hello! My name is Valeria, and after 10+ years in translations I'm starting my career as a data analyst. In this repository you can find some of my work so far. 
 I sure loved working on those projects, so I hope you like reading my review!
-> <a href="https://www.linkedin.com/in/valeria-dzhukich/">LinkedIn</a>
+
 
 
 ## SKILLS & SOFTWARE
@@ -83,3 +83,4 @@ I performed the analysis in Excel, with the Analysis ToolPak. The significance l
 
 ## CONTACTS
 - Email: valeria.chizh@gmail.com
+- <a href="https://www.linkedin.com/in/valeria-dzhukich/">LinkedIn</a>
